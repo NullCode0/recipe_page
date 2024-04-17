@@ -20,6 +20,7 @@ section {
 main section div img {
     border-radius: 10px;
     height: 500px;
+    width: 100%;
 }
 .title-one,
 .title-three,
