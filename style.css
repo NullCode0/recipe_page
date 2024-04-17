@@ -3,9 +3,9 @@ body {
 }
 @font-face {
     font-family: outfit;
-    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
     font-family: serif-x;
-    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 main {
     display: flex;
