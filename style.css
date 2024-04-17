@@ -1,24 +1,113 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-main{
+@font-face {
+    font-family: outfit;
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-family: serif-x;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+main {
     display: flex;
     justify-content: center;
-    align-items: center;
-    border: 3px solid green;
+    flex-direction: column;
+    align-items: center; 
+}
+section {
+    width: 70%;
+    margin: 20px;
 }
 main section div img {
     border-radius: 10px;
     height: 500px;
     width: 100%;
 }
-section {
-    border: 2px saddlebrown solid;
-    padding: 10px;
+.title-one,
+.title-three,
+.title-four,
+.title-five {
+    font-family: serif-x;
 }
-
+.text {
+    font-size: 24px;
+    margin: 10px;
+}
 h1 {
     font-size: 40px;
+    margin: 15px;
+}
+.section-tow {
+    background-color: rgb(242, 230, 230);
+    border-radius: 15px;
+    padding: 20px;
+}
+.title-tow {
+    font-size: 30px;
+    color: rgb(165, 52, 35);
+}
+ul li span {
+    font-weight: bold;
+}
+ul li {
+    margin: 30px;
+    font-size: 20px;
+}
+.title-three,
+.title-four,
+.title-five {
+    font-weight: 100;
+    color:tomato;
+}
 
+hr {
+    color: black;
+    width: 100%;
+}
+.type-list {
+    list-style-type: decimal;
+}
+.no-list {
+    list-style-type: none;
+}
+.margin-one {
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+}
+footer {
+    background-color: rgb(126, 156, 156);
+    height: 200px;
+    margin: -6px;
+    border-radius: 10px;
+}
+.attribution {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 20px;
+    padding: 5px;
+}
+.attribution p {
+    font-size: 24px;
+    font-weight: bold;
+}
+.attribution a {
+    text-decoration: none;
+    color: rgb(9, 6, 6);
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    transition: background .3s;
+}
+.attribution a:hover  {
+    background-color: rgb(152, 190, 216);
+    transition: background .5s;
 }
