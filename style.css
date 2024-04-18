@@ -2,16 +2,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-@font-face {
+/**@font-face {
     font-family: outfit;
     src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
     font-family: serif-x;
     src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
-}
+}**/
 main {
     display: flex;
     align-items: center;
     flex-direction: column;
+
     
 }
 section {
@@ -28,6 +29,9 @@ main section img {
 .title-four,
 .title-five {
     font-family: serif-x;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .text {
     font-size: 16px;
@@ -57,28 +61,30 @@ ul li {
 .title-four,
 .title-five {
     font-weight: 100;
-    color:tomato;
+    color:rgb(213, 124, 23);
 }
 
 hr {
     color: black;
     width: 100%;
 }
-.flex {
+.flegegx {
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin: 0;
+    margin: -10px;
 }
 .type-list {
     list-style-type: decimal;
 }
 .no-list {
     list-style-type: none;
+    padding-inline-start: 0;
 }
 .margin-one {
     display: flex;
     justify-content: space-around;
+    
 }
 footer {
     background-color: rgb(126, 156, 156);
@@ -133,6 +139,11 @@ footer {
     }
     .section-tow {
         margin: 20px ;
+    }
+    .section-three,
+    .section-four,
+    .section-five {
+        width: 100%;
     }
 
     hr {
